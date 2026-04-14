@@ -30,69 +30,10 @@ Seniors post a photo and a short description of what they're offering — pet si
 
 ---
 
-## 🎨 Design
+## 🚀 Prerequisites
 
-- **Color palette** — Forest green, deep red, royal blue, and warm gold (inspired by our petal logo)
-- **Dark mode** — Full light/dark toggle, persisted in localStorage, respects system preference
-- **Typography** — Playfair Display (headings) + DM Sans (body)
-- **WhatsApp-first** — Every listing card has a direct pre-filled WhatsApp link
-- **Fully responsive** — Mobile, tablet, and desktop
-
----
-
-## 🛠 Tech Stack
-
-- **Framework** — [Next.js 16](https://nextjs.org/) (App Router)
-- **Language** — TypeScript
-- **Styling** — Tailwind CSS + CSS custom properties
-- **Icons** — [Lucide React](https://lucide.dev/)
-- **Fonts** — Google Fonts (Playfair Display, DM Sans)
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
 - [Node.js 18+](https://nodejs.org/)
 - npm (comes with Node.js)
-
-### Install & Run
-
-```bash
-# 1. Clone the repo
-git clone https://github.com/YOUR_USERNAME/restcomm.git
-cd restcomm
-
-# 2. Install dependencies
-npm install
-
-# 3. Start the development server
-npm run dev
-```
-
-Then open [http://localhost:3000](http://localhost:3000) in your browser.
-
-### Other Commands
-
-```bash
-npm run build     # Build for production
-npm run start     # Start production server
-npm run lint      # Run ESLint
-```
-
----
-
-## ☁️ Deploying to Vercel (Free)
-
-The fastest way to get RestComm live:
-
-1. Push this repo to GitHub
-2. Go to [vercel.com](https://vercel.com) and sign in with GitHub
-3. Click **Add New Project** → import this repo
-4. Leave all settings as default — Vercel auto-detects Next.js
-5. Click **Deploy**
-
-Your site will be live at a link like `restcomm.vercel.app` in about 60 seconds. Every future `git push` auto-redeploys.
 
 ---
 
@@ -126,31 +67,4 @@ restcomm/
 ```
 
 ---
-
-## 🔮 Roadmap (Backend — Phase 2)
-
-The frontend is complete. The following will be built in the next phase:
-
-- [ ] User authentication (phone OTP or email)
-- [ ] Database integration (listings, profiles, reviews)
-- [ ] Image upload storage (Cloudinary or Supabase Storage)
-- [ ] Admin dashboard for listing moderation
-- [ ] Push notifications for new WhatsApp inquiries
-- [ ] Search with location-based filtering
-- [ ] Saved listings (favourites)
-
----
-
-## 🤝 Contributing
-
-RestComm is a community project. Pull requests are welcome! For major changes, please open an issue first to discuss what you'd like to change.
-
----
-
-## 📄 License
-
-MIT — free to use, modify, and distribute.
-
----
-
 *Built with ❤️ for seniors everywhere. Because every life has something beautiful left to give.*
