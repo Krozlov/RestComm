@@ -79,7 +79,7 @@ export default function LoginPage() {
           <Link href="/" style={{ textDecoration: 'none', display: 'flex', alignItems: 'center', gap: 8 }}>
             <PetalLogo size={28} />
             <span style={{ fontFamily: 'var(--font-display)', fontSize: 18, fontWeight: 700, color: 'var(--text-primary)' }}>
-              Silver<span style={{ color: 'var(--gold)' }}>Circle</span>
+              Rest<span style={{ color: 'var(--gold)' }}>Comm</span>
             </span>
           </Link>
           <button onClick={toggle} style={{ background: 'var(--bg-subtle)', border: '1px solid var(--border)', borderRadius: 50, width: 36, height: 36, display: 'flex', alignItems: 'center', justifyContent: 'center', cursor: 'pointer', color: 'var(--text-secondary)' }}>
