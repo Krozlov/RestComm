@@ -12,7 +12,7 @@ export default function Footer() {
             <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 16 }}>
               <PetalLogo size={32} />
               <span style={{ fontFamily: 'var(--font-display)', fontSize: 20, fontWeight: 700, color: 'var(--text-primary)' }}>
-                Silver<span style={{ color: 'var(--gold)' }}>Circle</span>
+                Rest<span style={{ color: 'var(--gold)' }}>Comm</span>
               </span>
             </div>
             <p style={{ color: 'var(--text-secondary)', fontSize: 14, lineHeight: 1.7, maxWidth: 240 }}>
@@ -56,7 +56,7 @@ export default function Footer() {
         </div>
 
         <div style={{ borderTop: '1px solid var(--border)', paddingTop: 28, display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: 12 }}>
-          <p style={{ color: 'var(--text-muted)', fontSize: 13 }}>© 2025 SilverCircle. All rights reserved.</p>
+          <p style={{ color: 'var(--text-muted)', fontSize: 13 }}>© 2025 RestComm. All rights reserved.</p>
           <p style={{ color: 'var(--text-muted)', fontSize: 13, display: 'flex', alignItems: 'center', gap: 4 }}>
             Made with <Heart size={12} fill="currentColor" color="var(--red)" /> for seniors everywhere
           </p>

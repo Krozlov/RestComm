@@ -56,7 +56,7 @@ export default function LoginPage() {
           </div>
 
           <h2 style={{ fontFamily: 'var(--font-display)', fontSize: 32, fontWeight: 700, marginBottom: 16, lineHeight: 1.2 }}>
-            Welcome Back to SilverCircle
+            Welcome Back to RestComm
           </h2>
           <p style={{ opacity: 0.85, fontSize: 15, lineHeight: 1.6 }}>
             Your community is waiting. Log in to see new listings, connect with neighbours, and share your own gifts.

@@ -400,7 +400,7 @@ export default function PostListingPage() {
                   You're Live!
                 </h2>
                 <p style={{ color: 'var(--text-secondary)', fontSize: 16, lineHeight: 1.7, maxWidth: 420, margin: '0 auto 16px' }}>
-                  <strong style={{ color: 'var(--text-primary)' }}>"{form.title}"</strong> is now visible to everyone in the SilverCircle community.
+                  <strong style={{ color: 'var(--text-primary)' }}>"{form.title}"</strong> is now visible to everyone in the RestComm community.
                 </p>
                 <p style={{ color: 'var(--text-muted)', fontSize: 14, marginBottom: 36 }}>
                   When someone is interested, they'll WhatsApp <strong>{form.whatsapp}</strong> directly.

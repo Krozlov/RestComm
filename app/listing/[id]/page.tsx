@@ -189,7 +189,7 @@ export default function ListingDetailPage() {
               </p>
 
               <a
-                href={`https://wa.me/${listing.whatsapp}?text=Hi ${listing.name}! I saw your listing "${listing.title}" on SilverCircle and I'm interested. Can we discuss?`}
+                href={`https://wa.me/${listing.whatsapp}?text=Hi ${listing.name}! I saw your listing "${listing.title}" on RestComm and I'm interested. Can we discuss?`}
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{

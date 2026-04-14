@@ -36,7 +36,7 @@ export default function SignupPage() {
         <Link href="/" style={{ textDecoration: 'none', display: 'flex', alignItems: 'center', gap: 8 }}>
           <PetalLogo size={28} />
           <span style={{ fontFamily: 'var(--font-display)', fontSize: 18, fontWeight: 700, color: 'var(--text-primary)' }}>
-            Rest<span style={{ color: 'var(--gold)' }}>Comm</span>
+            Silver<span style={{ color: 'var(--gold)' }}>Circle</span>
           </span>
         </Link>
         <div style={{ display: 'flex', alignItems: 'center', gap: 16 }}>

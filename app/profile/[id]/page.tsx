@@ -45,7 +45,7 @@ export default function ProfilePage() {
   const displayProfile = profile || {
     id, name: 'Community Member', age: 65, location: 'Kuala Lumpur',
     whatsapp: '601234567890',
-    bio: 'A valued member of the SilverCircle community.',
+    bio: 'A valued member of the RestComm community.',
     joined: '2024', emoji: '👴', color: 'blue' as const, rating: 4.8, reviews: 5,
     badges: ['Community Member'], listingIds: [],
   };
@@ -217,7 +217,7 @@ export default function ProfilePage() {
                 Reach out via WhatsApp to discuss listings, ask questions, or just say hello!
               </p>
               <a
-                href={`https://wa.me/${displayProfile.whatsapp}?text=Hi ${displayProfile.name.split(' ')[0]}! I found your profile on SilverCircle and would love to connect.`}
+                href={`https://wa.me/${displayProfile.whatsapp}?text=Hi ${displayProfile.name.split(' ')[0]}! I found your profile on RestComm and would love to connect.`}
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8, background: '#25D366', color: '#fff', textDecoration: 'none', padding: '14px', borderRadius: 12, fontSize: 15, fontWeight: 700, width: '100%', transition: 'all 0.2s' }}
@@ -235,7 +235,7 @@ export default function ProfilePage() {
                 <Shield size={14} /> Verified Member
               </div>
               <p style={{ fontSize: 12, color: 'var(--text-secondary)', lineHeight: 1.55 }}>
-                {displayProfile.name.split(' ')[0]} is a verified SilverCircle community member. Their identity has been confirmed.
+                {displayProfile.name.split(' ')[0]} is a verified RestComm community member. Their identity has been confirmed.
               </p>
             </div>
           </div>

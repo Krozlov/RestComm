@@ -235,7 +235,7 @@ export default function Home() {
         <div style={{ maxWidth: 1100, margin: '0 auto' }}>
           <div style={{ textAlign: 'center', marginBottom: 56 }}>
             <p style={{ color: 'var(--text-muted)', fontSize: 13, fontWeight: 600, textTransform: 'uppercase', letterSpacing: 1, marginBottom: 8 }}>Simple & Safe</p>
-            <h2 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(28px, 4vw, 40px)', fontWeight: 700, color: 'var(--text-primary)', letterSpacing: '-1px' }}>How SilverCircle Works</h2>
+            <h2 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(28px, 4vw, 40px)', fontWeight: 700, color: 'var(--text-primary)', letterSpacing: '-1px' }}>How RestComm Works</h2>
           </div>
 
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: 32 }}>
@@ -280,7 +280,7 @@ export default function Home() {
             "Loneliness is not Emptiness.<br />Emptiness is Loneliness."
           </blockquote>
           <p style={{ color: 'var(--text-secondary)', fontSize: 15, lineHeight: 1.7, maxWidth: 500, margin: '0 auto 40px' }}>
-            We believe every senior has something beautiful to offer. SilverCircle is the bridge between that gift and the world waiting to receive it.
+            We believe every senior has something beautiful to offer. RestComm is the bridge between that gift and the world waiting to receive it.
           </p>
           <Link href="/signup" style={{
             display: 'inline-flex', alignItems: 'center', gap: 8,

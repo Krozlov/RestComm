@@ -14,7 +14,7 @@ export default function AboutPage() {
         <div style={{ position: 'absolute', top: -60, right: -60, opacity: 0.08, fontSize: 300 }}>🌸</div>
         <div style={{ maxWidth: 700, margin: '0 auto', position: 'relative', zIndex: 1 }}>
           <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(36px, 6vw, 60px)', fontWeight: 700, color: '#fff', letterSpacing: '-1.5px', lineHeight: 1.1, marginBottom: 24 }}>
-            About SilverCircle
+            About RestComm
           </h1>
           <p style={{ color: 'rgba(255,255,255,0.85)', fontSize: 18, lineHeight: 1.7 }}>
             We exist because loneliness should never be a senior's companion.
@@ -29,7 +29,7 @@ export default function AboutPage() {
           "Loneliness is not Emptiness.<br />Emptiness is Loneliness."
         </blockquote>
         <p style={{ color: 'var(--text-secondary)', fontSize: 16, lineHeight: 1.8, maxWidth: 600, margin: '0 auto' }}>
-          This truth drove us to create SilverCircle — a place where seniors don't just sell their skills, but rediscover their place in the world. Every listing is a conversation waiting to happen. Every transaction is a friendship in the making.
+          This truth drove us to create RestComm — a place where seniors don't just sell their skills, but rediscover their place in the world. Every listing is a conversation waiting to happen. Every transaction is a friendship in the making.
         </p>
       </section>
 
@@ -65,13 +65,13 @@ export default function AboutPage() {
               Born from a Grandmother's Loneliness
             </h2>
             <p style={{ color: 'var(--text-secondary)', fontSize: 15, lineHeight: 1.75 }}>
-              Our founder noticed his grandmother — once a vibrant batik artist — growing quieter each year after retirement. She had so much to give, but no platform to offer it. SilverCircle was built for her, and for every senior who still has so much left to share.
+              Our founder noticed his grandmother — once a vibrant batik artist — growing quieter each year after retirement. She had so much to give, but no platform to offer it. RestComm was built for her, and for every senior who still has so much left to share.
             </p>
           </div>
           <div style={{ background: 'var(--gold-pale)', borderRadius: 24, padding: 40, textAlign: 'center', border: '1px solid var(--gold)30' }}>
             <div style={{ fontSize: 64, marginBottom: 16 }}>🎨</div>
             <p style={{ fontFamily: 'var(--font-display)', fontStyle: 'italic', fontSize: 18, color: 'var(--text-primary)', lineHeight: 1.5 }}>
-              "She taught 47 children batik in her first month on SilverCircle."
+              "She taught 47 children batik in her first month on RestComm."
             </p>
             <p style={{ color: 'var(--text-muted)', fontSize: 13, marginTop: 12 }}>— A real story from our community</p>
           </div>
