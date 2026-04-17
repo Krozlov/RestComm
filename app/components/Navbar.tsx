@@ -1,5 +1,6 @@
 'use client';
 import Link from 'next/link';
+import Image from 'next/image';
 import { useTheme } from '../context/ThemeContext';
 import { Sun, Moon, Menu, X } from 'lucide-react';
 import { useState } from 'react';
@@ -21,7 +22,7 @@ export default function Navbar() {
       <div style={{ maxWidth: 1200, margin: '0 auto', padding: '0 24px', height: 70, display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
         {/* Logo */}
         <Link href="/" style={{ textDecoration: 'none', display: 'flex', alignItems: 'center', gap: 10 }}>
-          <PetalLogo size={36} />
+          <Image src="/logo.png" alt="RestComm logo" width={38} height={38} style={{ objectFit: 'contain' }} />
           <span style={{ fontFamily: 'var(--font-display)', fontSize: 22, fontWeight: 700, color: 'var(--text-primary)', letterSpacing: '-0.5px' }}>
             Rest<span style={{ color: 'var(--gold)' }}>Comm</span>
           </span>
@@ -109,6 +110,7 @@ export default function Navbar() {
         }}>
           <Link href="/" style={{ color: 'var(--text-primary)', textDecoration: 'none', fontWeight: 500, padding: '8px 0' }} onClick={() => setMenuOpen(false)}>Home</Link>
           <Link href="/marketplace" style={{ color: 'var(--text-primary)', textDecoration: 'none', fontWeight: 500, padding: '8px 0' }} onClick={() => setMenuOpen(false)}>Browse Listings</Link>
+          <Link href="/post-listing" style={{ color: 'var(--text-primary)', textDecoration: 'none', fontWeight: 500, padding: '8px 0' }} onClick={() => setMenuOpen(false)}>Post a Listing</Link>
           <Link href="/about" style={{ color: 'var(--text-primary)', textDecoration: 'none', fontWeight: 500, padding: '8px 0' }} onClick={() => setMenuOpen(false)}>About</Link>
         </div>
       )}
@@ -144,15 +146,9 @@ function NavLink({ href, children }: { href: string; children: React.ReactNode }
   );
 }
 
+// Used in other pages that import this
 export function PetalLogo({ size = 40 }: { size?: number }) {
-  const s = size;
-  const h = s / 2;
   return (
-    <svg width={s} height={s} viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <ellipse cx="13" cy="13" rx="10" ry="14" transform="rotate(-45 13 13)" fill="#2E7D32" />
-      <ellipse cx="27" cy="13" rx="10" ry="14" transform="rotate(45 27 13)" fill="#8B1A1A" />
-      <ellipse cx="13" cy="27" rx="10" ry="14" transform="rotate(45 13 27)" fill="#1565C0" />
-      <ellipse cx="27" cy="27" rx="10" ry="14" transform="rotate(-45 27 27)" fill="#D4A017" />
-    </svg>
+    <Image src="/logo.png" alt="RestComm logo" width={size} height={size} style={{ objectFit: 'contain' }} />
   );
 }
