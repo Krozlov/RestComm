@@ -85,7 +85,7 @@ export default function Navbar() {
           }}
             className="nav-btn-primary"
           >
-            Join Free
+            Join Now
           </Link>
 
           <button
