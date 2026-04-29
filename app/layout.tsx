@@ -3,8 +3,11 @@ import './globals.css';
 import { ThemeProvider } from './context/ThemeContext';
 
 export const metadata: Metadata = {
-  title: 'RestComm — Marketplace for Seniors',
+  title: 'RestComm Marketplace for Seniors',
   description: 'A warm community marketplace where seniors share skills, services, and stories with the world.',
+  icons: {
+    icon: "/restcom.png",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
